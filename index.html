@@ -2,10 +2,71 @@
 <html>
     <head>
 
+        <style>
+           .photo {
+               height: 500px;
+           } 
+
+           .photo-holder {
+               display: grid;
+               grid-template-columns: 1fr 1fr 1fr;
+           }
+
+           #photo-1 {
+               background-image: url('photo-1.jpg');
+               background-position: 50% 50%;
+           }
+
+           #photo-2 {
+               background-image: url('photo-2.jpg');
+               background-position: 50% 50%;
+           }
+
+           #photo-3 {
+               background-image: url('photo-3.jpg');
+               background-position: 50% 50%;
+               
+           }
+
+           #photo-4 {
+               background-image: url('photo-4.jpg');
+               background-position: 50% 50%;
+           }
+           
+           #photo-5 {
+               background-image: url('photo-5.jpg');
+               background-position: 25% 25%;
+           }
+
+           #photo-6 {
+               background-image: url('photo-6.jpg');
+               background-position: 50% 50%;
+           }
+            /*
+                This is all a comment.
+            */
+           body {
+               background-image: url("Another\ Post\ Apocalyptic\ Wallpaper\ [2320x1405].jpg");
+           }
+        </style>
+
     </head>
 
     <body>
-        
+        <!-- This is a comment -->
+        <h1>Friend-O-Gram</h1>
+
+        <div>These are my friends and I.</div>
+
+        <div class="photo-holder"> 
+            <div class="photo" id="photo-1"></div>
+            <div class="photo" id="photo-2"></div>
+            <div class="photo" id="photo-3"></div>
+            <div class="photo" id="photo-4"></div>
+            <div class="photo" id="photo-5"></div>
+            <a href="https://google.com" class="photo" id="photo-6"></a>
+            
+        </div>
     </body>
 
 </html>
